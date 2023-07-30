@@ -1,3 +1,4 @@
+import * as React from 'react';
 import {
   Routes,
   Route,
@@ -8,7 +9,7 @@ import Plarform from "./pages/plarform";
 import PlatformHomePage from "./pages/platform-home-page";
 import PersonalInfo from "./pages/personal-info";
 import { useEffect } from "react";
-import * as React from 'react';
+
 
 
 function App() {
