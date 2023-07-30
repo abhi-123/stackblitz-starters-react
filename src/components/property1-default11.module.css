@@ -1,0 +1,43 @@
+.property1defaultChild {
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: var(--dusty-purple-90);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.personalLicense,
+.youCovenantRepresent {
+  position: absolute;
+  top: 4px;
+  left: 26px;
+  line-height: 14px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 17px;
+}
+.youCovenantRepresent {
+  top: 22px;
+  font-size: var(--l-112-20-r-size);
+  width: 283px;
+  height: 60px;
+}
+.property1default {
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gray-600);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+  width: 315px;
+  height: 86px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--b-114-20r);
+}

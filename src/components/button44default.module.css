@@ -1,0 +1,38 @@
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--blue-50);
+}
+.newModule {
+  position: absolute;
+  width: 90.48%;
+  top: 22.73%;
+  left: 4.76%;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangleParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button44default {
+  position: relative;
+  width: 336px;
+  height: 44px;
+  text-align: center;
+  font-size: var(--h-416-24m-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

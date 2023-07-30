@@ -1,0 +1,108 @@
+.groupChild,
+.modelFormats {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.modelFormats {
+  line-height: 1rem;
+  font-weight: 600;
+}
+.groupChild {
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+  width: 15.63rem;
+  height: 7.56rem;
+}
+.component4 {
+  top: 0.97rem;
+}
+.component4,
+.component5,
+.component6,
+.component7 {
+  position: absolute;
+  left: 0.06rem;
+  width: 2.25rem;
+  height: 0.88rem;
+}
+.component6 {
+  top: 0;
+}
+.component5,
+.component7 {
+  top: 1.94rem;
+}
+.component7 {
+  top: 2.91rem;
+}
+.component10,
+.component11,
+.component12,
+.component8,
+.component9 {
+  position: absolute;
+  top: 3.88rem;
+  left: 0.06rem;
+  width: 2.25rem;
+  height: 0.88rem;
+}
+.component10,
+.component11,
+.component12,
+.component9 {
+  top: 4.84rem;
+}
+.component10,
+.component11,
+.component12 {
+  top: 5.81rem;
+}
+.component11,
+.component12 {
+  top: 6.78rem;
+}
+.component12 {
+  top: 7.75rem;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 8.63rem;
+}
+.groupWrapper {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.31rem;
+  width: 11.25rem;
+  height: 7.06rem;
+  overflow-y: auto;
+}
+.rectangleParent {
+  position: absolute;
+  top: 1.06rem;
+  left: 0;
+  width: 15.63rem;
+  height: 7.56rem;
+}
+.component3Icon {
+  position: absolute;
+  top: 8.19rem;
+  left: 7.25rem;
+  width: 1.13rem;
+  height: 0.31rem;
+}
+.modelFormatsParent {
+  position: absolute;
+  top: 32.56rem;
+  left: 1.44rem;
+  width: 15.69rem;
+  height: 8.63rem;
+  text-align: left;
+  font-size: var(--l-112-20-r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

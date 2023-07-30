@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Times:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --b-114-20r: Poppins;
+  --font-inherit: inherit;
+  --font-courier: Courier;
+  --font-times: Times;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-17xl: 2.25rem;
+  --font-size-3xs: 0.63rem;
+  --h-416-24m-size: 1rem;
+  --font-size-lg: 1.13rem;
+  --l-112-20-r-size: 0.75rem;
+  --font-size-53xl: 4.5rem;
+  --font-size-25xl: 2.75rem;
+  --b-114-20r-size: 0.88rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-xl: 1.25rem;
+  --font-size-5xs: 0.5rem;
+  --font-size-smi: 0.81rem;
+  --font-size-13xl: 2rem;
+  --font-size-3xs-5: 0.59rem;
+  --font-size-6xs: 0.44rem;
+
+  /* Colors */
+  --dusty-purple-70: #282845;
+  --color-gray-100: #27283b;
+  --dusty-purple-90: #1b1c30;
+  --color-gray-200: rgba(0, 0, 0, 0.2);
+  --color-gray-300: rgba(0, 0, 0, 0.1);
+  --color-gray-400: rgba(255, 255, 255, 0.4);
+  --color-gray-500: rgba(255, 255, 255, 0.1);
+  --color-gray-600: rgba(255, 255, 255, 0.05);
+  --primary-white: #fff;
+  --color-gold: #fbbd00;
+  --dusty-purple-50: #505083;
+  --color-darkslateblue-100: rgba(80, 80, 131, 0.2);
+  --dusty-purple-20: #b4b4fa;
+  --dusty-purple-30: #9393da;
+  --dusty-purple-40: #7474b8;
+  --blue-70: #0040d3;
+  --blue-50: #427bff;
+  --grey-10: #f2f4fa;
+  --blue-20: #cadaff;
+  --grey-30: #a8b0c9;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0.05);
+  --color-darkslategray-100: #3d3e4f;
+  --color-darkslategray-200: rgba(61, 62, 79, 0.25);
+  --color-red: #ff0000;
+  --color-mediumblue: #004dff;
+  --grey-50: #555d74;
+  --grey-20: #e1e6f2;
+  --grey-301: #ccd2e3;
+  --color-black: #000;
+  --red-30: #ffa1b8;
+  --red-40: #ff6f91;
+  --red-10: #ffe7ec;
+  --red-70: #d11441;
+
+  /* Gaps */
+  --gap-mini: 0.94rem;
+  --gap-xl: 1.25rem;
+  --gap-xs: 0.75rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+  --gap-5xl: 1.5rem;
+  --gap-9xs: 0.25rem;
+  --gap-8xs: 0.31rem;
+  --gap-7xs: 0.38rem;
+  --gap-26xl: 2.81rem;
+  --gap-3xs: 0.63rem;
+  --gap-11xs: 0.13rem;
+  --gap-8xl: 1.69rem;
+
+  /* Paddings */
+  --padding-2xl: 1.31rem;
+  --padding-21xl: 2.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-12xs: 0.06rem;
+  --padding-11xs: 0.13rem;
+  --padding-8xs: 0.31rem;
+  --padding-15xl: 2.13rem;
+  --padding-30xl: 3.06rem;
+  --padding-158xl: 11.06rem;
+  --padding-12xl: 1.94rem;
+  --padding-4xs: 0.56rem;
+  --padding-10xs: 0.19rem;
+  --padding-2xs: 0.69rem;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+  --br-lg: 18px;
+  --br-9xs: 4px;
+  --br-9xs-5: 3.5px;
+  --br-10xs: 3px;
+  --br-4xs: 9px;
+  --br-11xs: 2px;
+  --br-xl: 20px;
+  --br-21xl: 40px;
+  --br-12xs: 1px;
+  --br-81xl: 100px;
+}

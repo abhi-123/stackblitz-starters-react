@@ -1,0 +1,35 @@
+.commonNames {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1rem;
+  font-weight: 600;
+}
+.frameChild {
+  position: absolute;
+  top: 1.13rem;
+  left: 0;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+  width: 15.69rem;
+  height: 6.31rem;
+}
+.component2Icon {
+  position: absolute;
+  top: 7rem;
+  left: 7.25rem;
+  width: 1.13rem;
+  height: 0.31rem;
+}
+.commonNamesParent {
+  position: absolute;
+  top: 24.13rem;
+  left: 1.44rem;
+  width: 15.69rem;
+  height: 7.44rem;
+  text-align: left;
+  font-size: var(--l-112-20-r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

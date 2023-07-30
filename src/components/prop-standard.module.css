@@ -1,0 +1,168 @@
+.dViewerRectangle,
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dViewerRectangle {
+  height: 70.42%;
+  width: 100%;
+  right: 0;
+  bottom: 29.58%;
+  border-radius: var(--br-9xs-5) var(--br-9xs-5) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle {
+  border-radius: 0 0 var(--br-9xs-5) var(--br-9xs-5);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+  width: 280px;
+  height: 80px;
+}
+.description,
+.title {
+  position: absolute;
+  left: 6px;
+}
+.title {
+  top: 4px;
+  font-size: var(--h-416-24m-size);
+  line-height: 18px;
+  font-weight: 500;
+}
+.description {
+  top: 40px;
+  line-height: 12px;
+  font-weight: 300;
+  display: inline-block;
+  width: 218px;
+}
+.licenseTypes1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  font-weight: 200;
+}
+.certificateDiplomaSealWaxIChild {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+.certificateDiplomaSealWaxI {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs);
+  align-items: center;
+  justify-content: center;
+}
+.certificateDiplomaSealWaxIParent {
+  position: absolute;
+  top: 9px;
+  left: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.licenseTypes {
+  position: absolute;
+  top: 54px;
+  left: 224px;
+  width: 52px;
+  height: 23px;
+  font-size: var(--font-size-6xs);
+}
+.creatorName {
+  position: absolute;
+  top: 1px;
+  left: 17px;
+  line-height: 12px;
+}
+.username,
+.usernameChild {
+  position: absolute;
+  height: 13px;
+}
+.usernameChild {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 13px;
+}
+.username {
+  top: 25px;
+  left: 6px;
+  width: 87px;
+  font-size: var(--font-size-3xs-5);
+}
+.modelQuality {
+  top: 5px;
+  left: 161px;
+  width: 114px;
+  height: 18px;
+}
+.div,
+.div1,
+.modelQuality {
+  position: absolute;
+}
+.div {
+  top: 22px;
+  left: 217px;
+  font-size: var(--l-112-20-r-size);
+  line-height: 16px;
+  font-family: var(--font-courier);
+}
+.div1 {
+  height: 15%;
+  width: 7.86%;
+  top: 11.25%;
+  left: 30.36%;
+  line-height: 10px;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likeLikeButtonLikedLikesTIcon {
+  position: absolute;
+  height: 12.5%;
+  width: 3.57%;
+  top: 11.25%;
+  right: 70.36%;
+  bottom: 76.25%;
+  left: 26.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.infoField {
+  position: absolute;
+  height: 28.17%;
+  width: 100%;
+  top: 71.13%;
+  right: 0;
+  bottom: 0.7%;
+  left: 0;
+}
+.propstandard {
+  position: relative;
+  border-radius: var(--br-11xs);
+  width: 280px;
+  height: 284px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

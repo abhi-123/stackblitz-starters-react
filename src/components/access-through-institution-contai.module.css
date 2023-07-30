@@ -1,0 +1,194 @@
+.groupChild {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  width: 24.75rem;
+  height: 0;
+}
+.or,
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.or {
+  width: 100%;
+  letter-spacing: 0.08em;
+  line-height: 1rem;
+  text-transform: lowercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.vectorParent {
+  width: 24.75rem;
+  height: 1rem;
+}
+.buttons48blueWithIconDefaChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-white);
+}
+.icon24google {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 54px);
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.icon24googleParent,
+.useGoogle {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.useGoogle {
+  left: calc(50% - 26px);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.icon24googleParent {
+  left: calc(50% - 54px);
+  width: 6.75rem;
+  height: 1.5rem;
+}
+.buttons48blueWithIconDefa {
+  position: relative;
+  box-shadow: 0 2px 8px rgba(23, 93, 108, 0.08);
+  width: 11.75rem;
+  height: 3rem;
+}
+.useFacebook {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 36px);
+  line-height: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.25rem;
+}
+.facebook1Icon,
+.useFacebookParent {
+  position: absolute;
+  left: calc(50% - 64px);
+}
+.facebook1Icon {
+  top: calc(50% - 10px);
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+}
+.useFacebookParent {
+  top: calc(50% - 12px);
+  width: 8rem;
+  height: 1.5rem;
+}
+.buttons48blueWithIconDefa1 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-white);
+  box-shadow: 0 2px 8px rgba(23, 93, 108, 0.08);
+  width: 11.75rem;
+  height: 3rem;
+}
+.buttons48blueWithIconDefaParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  position: relative;
+  width: 24.75rem;
+  height: 3rem;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-white);
+}
+.orcididIcon128x1281 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 50px);
+  width: 1.13rem;
+  height: 1.13rem;
+  object-fit: cover;
+}
+.orcididIcon128x1281Parent,
+.useOrcid {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.useOrcid {
+  left: calc(50% - 24px);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.orcididIcon128x1281Parent {
+  left: calc(50% - 50px);
+  width: 6.25rem;
+  height: 1.5rem;
+}
+.rectangleParent {
+  position: relative;
+  box-shadow: 0 2px 8px rgba(23, 93, 108, 0.08);
+  width: 24.75rem;
+  height: 3rem;
+}
+.groupItem {
+  left: calc(50% - 128px);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.accessThroughYour,
+.frameParent,
+.groupItem {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.accessThroughYour {
+  left: calc(50% - 95px);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.frameParent {
+  left: calc(50% - 128px);
+  width: 16rem;
+  height: 1.5rem;
+}
+.groupContainer {
+  position: absolute;
+  top: 2.25rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--b-114-20r-size);
+  color: var(--grey-50);
+}
+.groupParent {
+  position: relative;
+  width: 24.75rem;
+  height: 13.75rem;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--grey-301);
+  font-family: var(--b-114-20r);
+}

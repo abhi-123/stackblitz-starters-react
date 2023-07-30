@@ -1,0 +1,31 @@
+.component1variant3Child,
+.component1variant3Item {
+  position: relative;
+  width: 25px;
+  height: 23.21px;
+}
+.component1variant3Item {
+  height: 23.17px;
+}
+.component1variant3Inner {
+  position: relative;
+  width: 19.23px;
+  height: 25px;
+}
+.agreementBusinessContractDeIcon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component1variant3 {
+  position: relative;
+  width: 143px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}

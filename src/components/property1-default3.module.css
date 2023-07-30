@@ -1,0 +1,28 @@
+.iWouldNot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  line-height: 13px;
+  font-weight: 300;
+}
+.property1defaultChild {
+  position: absolute;
+  height: 85.71%;
+  width: 33.33%;
+  top: 7.14%;
+  right: 66.67%;
+  bottom: 7.14%;
+  left: 0;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+}
+.property1default {
+  position: relative;
+  width: 36px;
+  height: 14px;
+  text-align: left;
+  font-size: var(--l-112-20-r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

@@ -1,0 +1,38 @@
+.field40defaultdropdownChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-white);
+  border: 1px solid var(--grey-20);
+  box-sizing: border-box;
+}
+.email {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: calc(50% - 12px);
+  left: 12px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.viewFillIcon {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+}
+.field40defaultdropdown {
+  position: relative;
+  width: 396px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--l-112-20-r-size);
+  color: var(--grey-50);
+  font-family: var(--b-114-20r);
+}

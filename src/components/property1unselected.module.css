@@ -1,0 +1,22 @@
+.no {
+  position: relative;
+  line-height: 12px;
+  font-weight: 300;
+}
+.property1unselected {
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkslategray-200);
+  width: 20px;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

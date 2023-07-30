@@ -1,0 +1,347 @@
+.groupChild,
+.signupLoginChild {
+  position: absolute;
+  top: 0;
+  left: 83px;
+  border-radius: var(--br-21xl);
+  width: 604px;
+  height: 958px;
+}
+.groupChild {
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(32px);
+  width: 484px;
+  height: 762px;
+}
+.logIn {
+  text-decoration: underline;
+  color: var(--blue-50);
+}
+.haveAnAccountContainer {
+  position: absolute;
+  top: 821px;
+  left: 44px;
+  line-height: 28px;
+  display: inline-block;
+  width: 396px;
+}
+.signUp {
+  position: relative;
+  line-height: 44px;
+  font-weight: 600;
+  display: inline-block;
+  width: 396px;
+  flex-shrink: 0;
+}
+.signUpWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fillTheInfo {
+  position: relative;
+  font-size: var(--h-416-24m-size);
+  line-height: 28px;
+  display: inline-block;
+  width: 396px;
+}
+.iAgreeTo {
+  position: absolute;
+  top: 0;
+  left: 44.44%;
+  line-height: 13px;
+  font-weight: 300;
+}
+.component8Child {
+  position: absolute;
+  height: 85.71%;
+  width: 33.33%;
+  top: 7.14%;
+  right: 75%;
+  bottom: 7.14%;
+  left: -8.33%;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+}
+.component8 {
+  position: relative;
+  width: 36px;
+  height: 14px;
+  font-size: var(--l-112-20-r-size);
+}
+.frameParent {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.groupItem {
+  position: absolute;
+  top: 7.5px;
+  left: 0;
+  width: 396px;
+  height: 1px;
+}
+.or,
+.vectorParent {
+  position: absolute;
+  top: 0;
+}
+.or {
+  width: calc(100% - 352px);
+  left: 176px;
+  letter-spacing: 0.08em;
+  line-height: 16px;
+  text-transform: lowercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.vectorParent {
+  left: 0;
+  width: 396px;
+  height: 16px;
+}
+.buttons48blueWithIconDefaChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-white);
+}
+.icon24google {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 54px);
+  width: 20px;
+  height: 20px;
+}
+.icon24googleParent,
+.useGoogle {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.useGoogle {
+  left: calc(50% - 26px);
+  line-height: 24px;
+  font-weight: 500;
+}
+.icon24googleParent {
+  left: calc(50% - 54px);
+  width: 108px;
+  height: 24px;
+}
+.buttons48blueWithIconDefa {
+  position: relative;
+  box-shadow: 0 2px 8px rgba(23, 93, 108, 0.08);
+  width: 188px;
+  height: 48px;
+}
+.useFacebook {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 36px);
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 100px;
+}
+.facebook1Icon,
+.useFacebookParent {
+  position: absolute;
+  left: calc(50% - 64px);
+}
+.facebook1Icon {
+  top: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.useFacebookParent {
+  top: calc(50% - 12px);
+  width: 128px;
+  height: 24px;
+}
+.buttons48blueWithIconDefa1 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-white);
+  box-shadow: 0 2px 8px rgba(23, 93, 108, 0.08);
+  width: 188px;
+  height: 48px;
+}
+.buttons48blueWithIconDefaParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-white);
+}
+.orcididIcon128x1281 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 50px);
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.orcididIcon128x1281Parent,
+.useOrcid {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.useOrcid {
+  left: calc(50% - 24px);
+  line-height: 24px;
+  font-weight: 500;
+}
+.orcididIcon128x1281Parent {
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 24px;
+}
+.rectangleGroup {
+  position: relative;
+  box-shadow: 0 2px 8px rgba(23, 93, 108, 0.08);
+  width: 396px;
+  height: 48px;
+}
+.groupInner {
+  left: calc(50% - 128px);
+  width: 24px;
+  height: 24px;
+}
+.accessThroughYour,
+.frameGroup,
+.groupInner {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.accessThroughYour {
+  left: calc(50% - 95px);
+  line-height: 24px;
+  font-weight: 500;
+}
+.frameGroup {
+  left: calc(50% - 128px);
+  width: 256px;
+  height: 24px;
+}
+.frameDiv {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--b-114-20r-size);
+  color: var(--grey-50);
+}
+.groupContainer {
+  position: absolute;
+  top: 546px;
+  left: 44px;
+  width: 396px;
+  height: 172px;
+  font-size: var(--font-size-smi);
+  color: var(--grey-301);
+}
+.rectangleParent {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 484px;
+  height: 849px;
+}
+.biosLineWhiteIcon {
+  position: absolute;
+  top: 0;
+  left: 208px;
+  width: 68px;
+  height: 20px;
+  object-fit: cover;
+}
+.groupParent {
+  position: absolute;
+  top: 36px;
+  left: 143px;
+  width: 484px;
+  height: 905px;
+  text-align: center;
+  font-size: var(--h-416-24m-size);
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4 {
+  position: absolute;
+  top: 237px;
+  left: 587px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+  top: 357px;
+}
+.div2,
+.div3,
+.div4 {
+  top: 417px;
+}
+.div3,
+.div4 {
+  top: 479px;
+}
+.div4 {
+  top: 298px;
+}
+.signupLogin {
+  position: relative;
+  width: 774px;
+  height: 958px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--b-114-20r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

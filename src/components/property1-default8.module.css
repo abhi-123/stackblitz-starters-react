@@ -1,0 +1,41 @@
+.property1defaultChild {
+  position: absolute;
+  height: 110%;
+  width: 104.55%;
+  top: -5%;
+  right: -2.27%;
+  bottom: -5%;
+  left: -2.27%;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-500);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+}
+.property1defaultItem {
+  position: absolute;
+  top: 0.75px;
+  left: 0.75px;
+  border-radius: 50%;
+  background-color: var(--dusty-purple-50);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  border: 0.5px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+  width: 8.5px;
+  height: 8.5px;
+}
+.aiNotUsed {
+  position: absolute;
+  top: -2px;
+  left: 24px;
+  line-height: 14px;
+  font-weight: 300;
+}
+.property1default {
+  position: relative;
+  width: 22px;
+  height: 10px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

@@ -1,0 +1,73 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(32px);
+  width: 30.25rem;
+  height: 38.5rem;
+}
+.signUp {
+  text-decoration: underline;
+  color: var(--blue-50);
+}
+.login,
+.notAMemberContainer {
+  display: inline-block;
+  width: 24.75rem;
+}
+.notAMemberContainer {
+  position: absolute;
+  top: 39.75rem;
+  left: 2.75rem;
+  line-height: 1.75rem;
+}
+.login {
+  position: relative;
+  line-height: 2.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.loginWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.forgetPassword {
+  position: relative;
+  font-size: var(--l-112-20-r-size);
+  text-decoration: underline;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--blue-20);
+  display: inline-block;
+  width: 24.75rem;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.75rem;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  width: 30.25rem;
+  height: 41.5rem;
+  text-align: center;
+  font-size: var(--h-416-24m-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

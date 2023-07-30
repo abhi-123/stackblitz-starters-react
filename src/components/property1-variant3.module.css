@@ -1,0 +1,146 @@
+.albumImageLandscapePainting,
+.arrowsCartesianCoordinateEu {
+  position: absolute;
+  height: 84.62%;
+  width: 78.57%;
+  top: 0;
+  right: 0;
+  bottom: 15.38%;
+  left: 21.43%;
+  overflow: hidden;
+}
+.arrowsCartesianCoordinateEu {
+  top: 15.38%;
+  right: 21.43%;
+  bottom: 0;
+  left: 0;
+}
+.albumImageLandscapePaintingParent {
+  position: absolute;
+  height: 77.38%;
+  width: 83.33%;
+  top: 11.51%;
+  right: 11.11%;
+  bottom: 11.11%;
+  left: 5.56%;
+}
+.groupWrapper {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.property1variant3Inner {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-8xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.cornersFramePhotoPictureVi,
+.cornersFramePhotoPictureVi1,
+.cornersFramePhotoPictureVi2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15.8px;
+  height: 15.8px;
+  overflow: hidden;
+}
+.cornersFramePhotoPictureVi1,
+.cornersFramePhotoPictureVi2 {
+  top: 1.48px;
+  left: 2.22px;
+}
+.cornersFramePhotoPictureVi2 {
+  top: 2.96px;
+  left: 4.45px;
+}
+.cornersFramePhotoPictureViParent {
+  position: absolute;
+  top: 4.5px;
+  left: 3px;
+  width: 20.25px;
+  height: 18.77px;
+}
+.groupContainer {
+  position: relative;
+  width: 27px;
+  height: 27px;
+}
+.property1variant3Child {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+}
+.frameDiv {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.agreementBusinessContractDe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22.5px;
+  height: 22.5px;
+  overflow: hidden;
+}
+.agreementBusinessContractDeWrapper {
+  position: relative;
+  width: 22.5px;
+  height: 22.5px;
+}
+.property1variant3Inner1 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  align-items: center;
+  justify-content: center;
+}
+.bookCopybookDiaryJournalNo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+}
+.bookCopybookDiaryJournalNoWrapper {
+  position: relative;
+  width: 21px;
+  height: 21px;
+}
+.property1variant3Inner2 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs);
+  align-items: center;
+  justify-content: center;
+}
+.property1variant3 {
+  position: relative;
+  width: 170px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}

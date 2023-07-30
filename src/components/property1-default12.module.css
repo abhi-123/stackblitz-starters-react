@@ -1,0 +1,29 @@
+.property1defaultChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  background-color: var(--color-gray-600);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+}
+.modelFile {
+  position: absolute;
+  top: 26.19%;
+  left: 19.73%;
+  line-height: 20px;
+}
+.property1default {
+  position: relative;
+  width: 147px;
+  height: 42px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

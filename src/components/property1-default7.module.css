@@ -1,0 +1,41 @@
+.property1defaultChild {
+  position: absolute;
+  height: 140%;
+  width: 154.69%;
+  top: -23.33%;
+  right: -53.91%;
+  bottom: -16.67%;
+  left: -0.78%;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gray-500);
+  border: 1px solid var(--dusty-purple-50);
+  box-sizing: border-box;
+}
+.icon {
+  position: absolute;
+  height: 100%;
+  width: 23.44%;
+  top: 0;
+  right: 76.56%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.selectType {
+  position: absolute;
+  top: 6.67%;
+  left: 21.88%;
+  line-height: 12px;
+  font-weight: 300;
+}
+.property1default {
+  position: relative;
+  width: 64px;
+  height: 15px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

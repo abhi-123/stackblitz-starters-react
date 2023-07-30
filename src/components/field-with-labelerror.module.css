@@ -1,0 +1,20 @@
+.emailAddress {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.08em;
+  line-height: 16px;
+  text-transform: lowercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.fieldWithLabelerror {
+  position: relative;
+  width: 396px;
+  height: 64px;
+  text-align: left;
+  font-size: var(--l-112-20-r-size);
+  color: var(--red-70);
+  font-family: var(--b-114-20r);
+}

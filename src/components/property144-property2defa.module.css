@@ -1,0 +1,40 @@
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--dusty-purple-30);
+}
+.abstract {
+  position: absolute;
+  width: 90.48%;
+  top: 17.73%;
+  left: 4.76%;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.property144Property2defa {
+  position: relative;
+  width: 105.11px;
+  height: 40px;
+  text-align: center;
+  font-size: var(--h-416-24m-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

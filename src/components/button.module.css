@@ -1,0 +1,29 @@
+.buttonChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(60.98deg, #001aff, #acc5ff);
+}
+.signUp {
+  position: absolute;
+  width: calc(100% - 16px);
+  top: calc(50% - 12px);
+  left: 8px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.button {
+  position: relative;
+  width: 396px;
+  height: 40px;
+  text-align: center;
+  font-size: var(--b-114-20r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

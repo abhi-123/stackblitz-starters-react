@@ -1,0 +1,38 @@
+.uploadProfileImage {
+  position: relative;
+  line-height: 0.75rem;
+  font-weight: 300;
+}
+.icon {
+  position: relative;
+  width: 0.81rem;
+  height: 0.75rem;
+}
+.photogrammetry {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-100);
+  border: 1px solid var(--dusty-purple-40);
+  box-sizing: border-box;
+  width: 9.75rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.field40defaultdropdownParent {
+  position: absolute;
+  top: 14.5rem;
+  left: 10.13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--l-112-20-r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

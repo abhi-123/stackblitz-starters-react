@@ -1,0 +1,24 @@
+.grade {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+}
+.property1defaultChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--primary-white);
+  box-sizing: border-box;
+  height: 1px;
+}
+.property1default {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--h-416-24m-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}

@@ -1,0 +1,165 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dusty-purple-70);
+  width: 90rem;
+  height: 20.75rem;
+}
+.icon24linkedin {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon24linkedinParent {
+  position: absolute;
+  top: 4.13rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.biosLineWhiteIcon {
+  position: absolute;
+  top: 0;
+  left: 0.13rem;
+  width: 7.13rem;
+  height: 2.13rem;
+  object-fit: cover;
+}
+.frameParent {
+  position: absolute;
+  top: 2.5rem;
+  left: 11.13rem;
+  width: 7.25rem;
+  height: 6.13rem;
+}
+.biologicalInformationOs {
+  position: absolute;
+  top: 17rem;
+  left: 11.13rem;
+  line-height: 1.25rem;
+}
+.termsAndConditions {
+  position: relative;
+  line-height: 1.25rem;
+}
+.termsAndConditionsParent {
+  position: absolute;
+  top: 17rem;
+  left: 52.88rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.partnerships {
+  position: absolute;
+  top: 2.5rem;
+  width: 10.25rem;
+}
+.inquiries,
+.media,
+.partnerships {
+  left: 0;
+  line-height: 1.25rem;
+  display: inline-block;
+}
+.media {
+  position: absolute;
+  top: 4.75rem;
+  width: 10.25rem;
+}
+.inquiries {
+  top: 7rem;
+}
+.contacts,
+.inquiries,
+.partnershipsParent {
+  position: absolute;
+  width: 10.25rem;
+}
+.contacts {
+  top: 0;
+  left: 0;
+  font-size: var(--h-416-24m-size);
+  line-height: 2rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.partnershipsParent {
+  top: 2.5rem;
+  left: 57.13rem;
+  height: 8.25rem;
+  font-size: var(--b-114-20r-size);
+}
+.biologicalInformation,
+.osInc {
+  position: absolute;
+  left: 0;
+  line-height: 1.25rem;
+  display: inline-block;
+  width: 10.25rem;
+}
+.biologicalInformation {
+  top: 0;
+}
+.osInc {
+  top: 1.75rem;
+}
+.biologicalInformationParent {
+  top: 0;
+  height: 3rem;
+}
+.biologicalInformationParent,
+.groupContainer,
+.groupWrapper {
+  position: absolute;
+  left: 0;
+  width: 10.25rem;
+}
+.groupWrapper {
+  top: 2.5rem;
+  height: 3rem;
+}
+.groupContainer {
+  top: 0;
+  height: 5.5rem;
+}
+.palmHarborFloridaParent {
+  position: absolute;
+  top: 6.25rem;
+  left: 0;
+  width: 10.25rem;
+  height: 3rem;
+}
+.groupParent {
+  position: absolute;
+  top: 2.5rem;
+  left: 68.63rem;
+  width: 10.25rem;
+  height: 9.25rem;
+  font-size: var(--b-114-20r-size);
+}
+.platformHomePageInner,
+.rectangleParent {
+  position: absolute;
+  left: 0;
+  width: 90rem;
+  height: 20.75rem;
+}
+.rectangleParent {
+  top: 0;
+}
+.platformHomePageInner {
+  top: 113.13rem;
+  text-align: left;
+  font-size: var(--l-112-20-r-size);
+  color: var(--primary-white);
+  font-family: var(--b-114-20r);
+}
