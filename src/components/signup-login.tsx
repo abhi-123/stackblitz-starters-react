@@ -19,9 +19,9 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
     cpassword: "",
   });
  
-  const signupHandler = (e:any) => {
-    console.log(e, user)
-    e.preventDefault();
+  const signupHandler = () => {
+    //console.log(e, user)
+    //e.preventDefault();
     //setFormErrors(validateForm(user));
     setIsSubmit(true);
     //return true;
@@ -34,10 +34,10 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
       [name]: value,
     });
   };
-  const onButtonContainerClick = useCallback((e: any) => {
+  const onButtonContainerClick = useCallback(() => {
     console.log("HEREEEEEEEEEEE")
     // Please sync "My Profile Page" to the project
-    signupHandler(e);
+    signupHandler();
   }, [])
   useEffect(() => {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
@@ -139,7 +139,7 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
               signUpTop="calc(50% - 12px)"
               signUpLeft="8px"
               signUpLineHeight="24px"
-              onButtonContainer1Click={() => onButtonContainerClick}
+              onButtonContainer1Click={onButtonContainerClick}
             />
             <button className={styles.button_common} onClick={signupHandler}>
             Register
