@@ -44,7 +44,7 @@ const Plarform: FunctionComponent = () => {
     <>
       <div className={styles.plarform}>
         <div className={styles.frameParent}>
-          <img className={styles.frameIcon} alt="" src="../images/Frame.png" />
+          <img className={styles.frameIcon} alt="" src='/images/Frame.png' />
           <div className={styles.frame}>
             <div className={styles.tabParent}>
               <div className={styles.tab}>
