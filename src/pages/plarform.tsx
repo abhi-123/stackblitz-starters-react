@@ -44,7 +44,7 @@ const Plarform: FunctionComponent = () => {
     <>
       <div className={styles.plarform}>
         <div className={styles.frameParent}>
-          <img className={styles.frameIcon} alt="" src="/frame@2x.png" />
+          <img className={styles.frameIcon} alt="" src="../images/Frame.png" />
           <div className={styles.frame}>
             <div className={styles.tabParent}>
               <div className={styles.tab}>
@@ -80,7 +80,7 @@ const Plarform: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.image15Parent}>
-          <img className={styles.image15Icon} alt="" src="/image-15@2x.png" />
+          <img className={styles.image15Icon} alt="" src="../images/image 15.png" />
           <div className={styles.frame2}>
             <div className={styles.signUpForTheBiosAppParent}>
               <div className={styles.signUpFor}>Sign up for the BIOS App</div>
