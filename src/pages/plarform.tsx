@@ -54,9 +54,6 @@ const Plarform: FunctionComponent = () => {
 
   return (
     <>
-  <Popup trigger={<button> Trigger</button>} position="right center">
-    <div>Popup content here !!</div>
-  </Popup>
       <div className={styles.plarform}>
         <div className={styles.frameParent}>
           <img className={styles.frameIcon} alt="" src='/images/Frame.png' />

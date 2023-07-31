@@ -1,19 +1,60 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useCallback } from "react";
 import Field40defaultdropdown from "./field40defaultdropdown";
 import Button from "./button";
 import styles from "./signup-login.module.css";
+import React, { useEffect, useState } from "react";
 
 type SignupLoginType = {
   onClose?: () => void;
 };
 
 const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
+  const [isSubmit, setIsSubmit] = useState(false);
+  const [formErrors, setFormErrors] = useState({});
+  const [user, setUserDetails] = useState({
+    fname: "",
+    lname: "",
+    email: "",
+    password: "",
+    cpassword: "",
+  });
+ 
+  const signupHandler = (e:any) => {
+    console.log(e, user)
+    e.preventDefault();
+    //setFormErrors(validateForm(user));
+    setIsSubmit(true);
+    //return true;
+  };
+
+  const changeHandler = (e:any) => {
+    const { name, value } = e.target;
+    setUserDetails({
+      ...user,
+      [name]: value,
+    });
+  };
+  const onButtonContainerClick = useCallback((e: any) => {
+    console.log("HEREEEEEEEEEEE")
+    // Please sync "My Profile Page" to the project
+    signupHandler(e);
+  }, [])
+  useEffect(() => {
+    if (Object.keys(formErrors).length === 0 && isSubmit) {
+      console.log(user);
+      /*axios.post("http://localhost:9002/signup/", user).then((res:any) => {
+        console.log(res.data.message);
+      
+      });*/
+    }
+  });
+
   return (
     <div className={styles.signupLogin}>
       <img
         className={styles.signupLoginChild}
         alt=""
-        src="/rectangle-40442.svg"
+        src="/images/Rectangle 4044.png"
       />
       <div className={styles.groupParent}>
         <div className={styles.rectangleParent}>
@@ -29,161 +70,51 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
             <div className={styles.fillTheInfo}>
               Fill the Info to create an account
             </div>
-            <Field40defaultdropdown
-              email="Enter email"
-              showViewFillIcon={false}
-              field40defaultdropdownPosition="relative"
-              field40defaultdropdownWidth="396px"
-              field40defaultdropdownTop="unset"
-              field40defaultdropdownRight="unset"
-              field40defaultdropdownLeft="unset"
-              field40defaultdropdownHeight="40px"
-              field40defaultdropdownBottom="unset"
-              rectangleDivBackgroundColor="unset"
-              rectangleDivBorder="1px solid var(--grey-20)"
-              rectangleDivTop="0px"
-              rectangleDivRight="0px"
-              rectangleDivBottom="0px"
-              rectangleDivLeft="0px"
-              emailColor="#ccd2e3"
-              emailLeft="12px"
-              emailLineHeight="24px"
-              emailTop="calc(50% - 12px)"
-              emailFontSize="12px"
-              emailDisplay="inline-block"
-              emailAlignItems="unset"
-              emailWidth="calc(100% - 24px)"
-              viewFillIconTop="8px"
-              viewFillIconRight="12px"
-              viewFillIconWidth="24px"
-              viewFillIconHeight="24px"
-              viewFillIconPosition="absolute"
-              viewFillIconLineBreak="unset"
-            />
-            <Field40defaultdropdown
-              email="Enter your name"
-              showViewFillIcon={false}
-              field40defaultdropdownPosition="relative"
-              field40defaultdropdownWidth="396px"
-              field40defaultdropdownTop="unset"
-              field40defaultdropdownRight="unset"
-              field40defaultdropdownLeft="unset"
-              field40defaultdropdownHeight="40px"
-              field40defaultdropdownBottom="unset"
-              rectangleDivBackgroundColor="unset"
-              rectangleDivBorder="1px solid var(--grey-20)"
-              rectangleDivTop="0px"
-              rectangleDivRight="0px"
-              rectangleDivBottom="0px"
-              rectangleDivLeft="0px"
-              emailColor="#ccd2e3"
-              emailLeft="12px"
-              emailLineHeight="24px"
-              emailTop="calc(50% - 12px)"
-              emailFontSize="12px"
-              emailDisplay="inline-block"
-              emailAlignItems="unset"
-              emailWidth="calc(100% - 24px)"
-              viewFillIconTop="8px"
-              viewFillIconRight="12px"
-              viewFillIconWidth="24px"
-              viewFillIconHeight="24px"
-              viewFillIconPosition="absolute"
-              viewFillIconLineBreak="unset"
-            />
-            <Field40defaultdropdown
-              email="Enter username"
-              showViewFillIcon={false}
-              field40defaultdropdownPosition="relative"
-              field40defaultdropdownWidth="396px"
-              field40defaultdropdownTop="unset"
-              field40defaultdropdownRight="unset"
-              field40defaultdropdownLeft="unset"
-              field40defaultdropdownHeight="40px"
-              field40defaultdropdownBottom="unset"
-              rectangleDivBackgroundColor="unset"
-              rectangleDivBorder="1px solid var(--grey-20)"
-              rectangleDivTop="0px"
-              rectangleDivRight="0px"
-              rectangleDivBottom="0px"
-              rectangleDivLeft="0px"
-              emailColor="#ccd2e3"
-              emailLeft="12px"
-              emailLineHeight="24px"
-              emailTop="calc(50% - 12px)"
-              emailFontSize="12px"
-              emailDisplay="inline-block"
-              emailAlignItems="unset"
-              emailWidth="calc(100% - 24px)"
-              viewFillIconTop="8px"
-              viewFillIconRight="12px"
-              viewFillIconWidth="24px"
-              viewFillIconHeight="24px"
-              viewFillIconPosition="absolute"
-              viewFillIconLineBreak="unset"
-            />
-            <Field40defaultdropdown
-              email="Enter password"
-              showViewFillIcon
-              field40defaultdropdownPosition="relative"
-              field40defaultdropdownWidth="396px"
-              field40defaultdropdownTop="unset"
-              field40defaultdropdownRight="unset"
-              field40defaultdropdownLeft="unset"
-              field40defaultdropdownHeight="40px"
-              field40defaultdropdownBottom="unset"
-              rectangleDivBackgroundColor="unset"
-              rectangleDivBorder="1px solid var(--grey-20)"
-              rectangleDivTop="0px"
-              rectangleDivRight="0px"
-              rectangleDivBottom="0px"
-              rectangleDivLeft="0px"
-              emailColor="#ccd2e3"
-              emailLeft="12px"
-              emailLineHeight="24px"
-              emailTop="calc(50% - 12px)"
-              emailFontSize="12px"
-              emailDisplay="inline-block"
-              emailAlignItems="unset"
-              emailWidth="calc(100% - 24px)"
-              viewFillIconTop="8px"
-              viewFillIconRight="12px"
-              viewFillIconWidth="24px"
-              viewFillIconHeight="24px"
-              viewFillIconPosition="absolute"
-              viewFillIconLineBreak="unset"
-            />
-            <Field40defaultdropdown
-              email="Repeat password"
-              showViewFillIcon={false}
-              field40defaultdropdownPosition="relative"
-              field40defaultdropdownWidth="396px"
-              field40defaultdropdownTop="unset"
-              field40defaultdropdownRight="unset"
-              field40defaultdropdownLeft="unset"
-              field40defaultdropdownHeight="40px"
-              field40defaultdropdownBottom="unset"
-              rectangleDivBackgroundColor="unset"
-              rectangleDivBorder="1px solid var(--grey-20)"
-              rectangleDivTop="0px"
-              rectangleDivRight="0px"
-              rectangleDivBottom="0px"
-              rectangleDivLeft="0px"
-              emailColor="#ccd2e3"
-              emailLeft="12px"
-              emailLineHeight="24px"
-              emailTop="calc(50% - 12px)"
-              emailFontSize="12px"
-              emailDisplay="inline-block"
-              emailAlignItems="unset"
-              emailWidth="calc(100% - 24px)"
-              viewFillIconTop="8px"
-              viewFillIconRight="12px"
-              viewFillIconWidth="24px"
-              viewFillIconHeight="24px"
-              viewFillIconPosition="absolute"
-              viewFillIconLineBreak="unset"
-            />
+            <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+            onChange={changeHandler}
+            value={user.fname}
+          />
+          {/* <p className={styles.error}>{formErrors.fname}</p> */}
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Last Name"
+            onChange={changeHandler}
+            value={user.lname}
+          />
+          {/* <p className={styles.error}>{formErrors.lname}</p> */}
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            onChange={changeHandler}
+            value={user.email}
+          />
+          {/* <p className={styles.error}>{formErrors.email}</p> */}
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            onChange={changeHandler}
+            value={user.password}
+          />
+          {/* <p className={styles.error}>{formErrors.password}</p> */}
+          <input
+            type="password"
+            name="cpassword"
+            id="cpassword"
+            placeholder="Confirm Password"
+            onChange={changeHandler}
+            value={user.cpassword}
+          />
+          {/* <p className={styles.error}>{formErrors.cpassword}</p> */}
             <div className={styles.component8}>
               <div
                 className={styles.iAgreeTo}
@@ -197,7 +128,7 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
               buttonHeight="40px"
               buttonTop="unset"
               buttonLeft="unset"
-              buttonCursor="unset"
+              buttonCursor="pointer"
               rectangleDivBackground="unset"
               rectangleDivBackgroundColor="#fff"
               rectangleDivTop="0px"
@@ -208,7 +139,11 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
               signUpTop="calc(50% - 12px)"
               signUpLeft="8px"
               signUpLineHeight="24px"
+              onButtonContainer1Click={() => onButtonContainerClick}
             />
+            <button className={styles.button_common} onClick={signupHandler}>
+            Register
+          </button>
           </div>
           <div className={styles.groupContainer}>
             <div className={styles.vectorParent}>
@@ -248,7 +183,7 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
                   <img
                     className={styles.orcididIcon128x1281}
                     alt=""
-                    src="/orcidid-icon128x128-1@2x.png"
+                    src="/images/ORCIDiD_icon128x128 1.png"
                   />
                   <div className={styles.useOrcid}>Use ORCiD</div>
                 </div>
@@ -259,7 +194,7 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
                   <img
                     className={styles.groupInner}
                     alt=""
-                    src="/frame-5.svg"
+                    src="/images/Icon.svg"
                   />
                   <div className={styles.accessThroughYour}>
                     Access Through Your Institution
@@ -272,7 +207,7 @@ const SignupLogin: FunctionComponent<SignupLoginType> = ({ onClose }) => {
         <img
           className={styles.biosLineWhiteIcon}
           alt=""
-          src="/bios-line-white1@2x.png"
+          src="/images/BIOS_line_white.png"
         />
       </div>
       <div className={styles.div}>*</div>
