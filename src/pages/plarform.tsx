@@ -80,7 +80,7 @@ const Plarform: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.image15Parent}>
-          <img className={styles.image15Icon} alt="" src="../images/image 15.png" />
+          <img className={styles.image15Icon} alt="" src="/images/image 15.png" />
           <div className={styles.frame2}>
             <div className={styles.signUpForTheBiosAppParent}>
               <div className={styles.signUpFor}>Sign up for the BIOS App</div>
@@ -100,23 +100,23 @@ const Plarform: FunctionComponent = () => {
                 <img
                   className={styles.biosLineWhiteIcon}
                   alt=""
-                  src="/bios-line-white@2x.png"
+                  src="/images/BIOS_line_white.png"
                 />
                 <div className={styles.icon24linkedinParent}>
                   <img
                     className={styles.icon24linkedin}
                     alt=""
-                    src="/icon24linkedin.svg"
+                    src="/images/linkedin.png"
                   />
                   <img
                     className={styles.icon24linkedin}
                     alt=""
-                    src="/twitter-2-1.svg"
+                    src="/images/twitter.png"
                   />
                   <img
                     className={styles.icon24linkedin}
                     alt=""
-                    src="/icon24facebook.svg"
+                    src="/images/facebook.png"
                   />
                 </div>
               </div>
@@ -165,7 +165,7 @@ const Plarform: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.frameParent1}>
-          <img className={styles.frameIcon1} alt="" src="/frame1.svg" />
+          <img className={styles.frameIcon1} alt="" src="/images/Frame3.png" />
           <div className={styles.theScienceCommunityIsFundaParent}>
             <div className={styles.signUpFor}>
               The Science Community is Fundamental to BIOS
@@ -196,21 +196,21 @@ const Plarform: FunctionComponent = () => {
             >{`Share your 3D models & provide a more inclusive way discuss scientific breakthroughs and new understandings.`}</p>
           </div>
           <div className={styles.publishForEveryone}>Publish For Everyone</div>
-          <img className={styles.image13Icon} alt="" src="/image-13@2x.png" />
+          <img className={styles.image13Icon} alt="" src="/images/image 13.png" />
           <div className={styles.aPlatformFor}>
             A Platform for 3D Life Sciences
           </div>
           <img
             className={styles.rotatingEarthAnimatedTranspIcon}
             alt=""
-            src="/rotating-earth-animated-transparent-1@2x.png"
+            src="/images/earth.gif"
           />
           <div className={styles.takeALook} onClick={openModelShowpage}>
             Take a Look!
           </div>
         </div>
         <div className={styles.frame9}>
-          <img className={styles.image12Icon} alt="" src="/image-12@2x.png" />
+          <img className={styles.image12Icon} alt="" src="/images/image 12.png" />
           <div className={styles.thisIsAContainer}>
             <p
               className={styles.thisIsA}
@@ -229,11 +229,11 @@ const Plarform: FunctionComponent = () => {
           <img
             className={styles.arrowCircleDownLineMarkerIcon}
             alt=""
-            src="/2726652-arrow-circle-down-line-marker-icon-1.svg"
+            src="/images/funky_arrow.png"
           />
           <div className={styles.rectangleParent1}>
             <div className={styles.frameChild} />
-            <img className={styles.image14Icon} alt="" src="/image-14@2x.png" />
+            <img className={styles.image14Icon} alt="" src="/images/Frame 27156.png" />
           </div>
           <div className={styles.frame11}>
             <div className={styles.clickSignUp}>
@@ -263,7 +263,7 @@ const Plarform: FunctionComponent = () => {
               <img
                 className={styles.cartoonComicDynamicUnderlinIcon}
                 alt=""
-                src="/1863638-cartoon-comic-dynamic-underline-icon-1.svg"
+                src="/images/Frame1.png"
               />
             </div>
           </div>
@@ -274,14 +274,14 @@ const Plarform: FunctionComponent = () => {
               <img
                 className={styles.uploadForm1}
                 alt=""
-                src="/upload-form-1@2x.png"
+                src="/images/Upload Form 1.png"
               />
             </div>
             <div className={styles.uploadForm11Wrapper}>
               <img
                 className={styles.uploadForm11}
                 alt=""
-                src="/upload-form1-1@2x.png"
+                src="/images/Frame 27157.png"
               />
             </div>
           </div>
@@ -342,7 +342,7 @@ const Plarform: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.frame22}>
-          <img className={styles.image14Icon1} alt="" src="/image-141@2x.png" />
+          <img className={styles.image14Icon1} alt="" src="/images/image 14.png" />
           <div className={styles.frame23}>
             <div className={styles.afterEmailConfirmationContainer}>
               <ul className={styles.uploadAProfile}>
