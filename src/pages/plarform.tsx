@@ -1,12 +1,17 @@
+//import * as React from 'react';
 import { FunctionComponent, useState, useCallback } from "react";
 import ModelShowpage from "../components/model-showpage";
 import PortalPopup from "../components/portal-popup";
 import UploadForm from "../components/upload-form";
 import styles from "./plarform.module.css";
-import * as React from 'react';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import SignupLogin from "../components/signup-login";
 const Plarform: FunctionComponent = () => {
   const [isModelShowpageOpen, setModelShowpageOpen] = useState(false);
   const [isUploadFormOpen, setUploadFormOpen] = useState(false);
+  const [isSignUpOpen, setSignupFormOpen] = useState(false);
+
 
   const onTabContainer1Click = useCallback(() => {
     window.open("/platform-home-page");
@@ -17,7 +22,7 @@ const Plarform: FunctionComponent = () => {
   }, []);
 
   const onButton44defaultContainer1Click = useCallback(() => {
-    window.open("/signup-login");
+   
   }, []);
 
   const openModelShowpage = useCallback(() => {
@@ -35,6 +40,13 @@ const Plarform: FunctionComponent = () => {
   const closeUploadForm = useCallback(() => {
     setUploadFormOpen(false);
   }, []);
+  const openSignUpForm = useCallback(() => {
+    setSignupFormOpen(true);
+  }, []);
+
+  const closeSignUpForm = useCallback(() => {
+    setSignupFormOpen(false);
+  }, []);
 
   const onPublishTextClick = useCallback(() => {
     // Please sync "Frame 27106" to the project
@@ -42,6 +54,9 @@ const Plarform: FunctionComponent = () => {
 
   return (
     <>
+  <Popup trigger={<button> Trigger</button>} position="right center">
+    <div>Popup content here !!</div>
+  </Popup>
       <div className={styles.plarform}>
         <div className={styles.frameParent}>
           <img className={styles.frameIcon} alt="" src='/images/Frame.png' />
@@ -69,8 +84,17 @@ const Plarform: FunctionComponent = () => {
               </div>
               <div
                 className={styles.button44default1}
-                onClick={onButton44defaultContainer1Click}
+                onClick={openSignUpForm} 
               >
+    {isSignUpOpen && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closeSignUpForm}
+        >
+          <SignupLogin onClose={closeSignUpForm} />
+        </PortalPopup>
+      )}
                 <div className={styles.rectangleParent}>
                   <div className={styles.groupItem} />
                   <div className={styles.newModule}>Sign Up</div>
